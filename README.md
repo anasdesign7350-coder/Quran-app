@@ -1,17 +1,22 @@
-# abdullah_alzakheim
+# alzakheim-content
 
-تطبيق عبد الله الزخيم - مشغل صوتيات
+مستودع محتوى تطبيق عبد الله الزخيم
 
-## Getting Started
+## هيكل المجلدات
 
-This project is a starting point for a Flutter application.
+```
+├── manifest.json      ← قائمة المحتوى (يُصدرها التطبيق)
+├── audio/             ← الملفات الصوتية
+├── pdfs/              ← ملفات PDF للخطب
+└── images/            ← صور الشعار والتصنيفات
+```
 
-A few resources to get you started if this is your first Flutter project:
+### طريقة التحديث
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. افتح التطبيق ← لوحة التحكم
+2. أضف المحتوى (تصنيفات، مقاطع، فوائد، أقوال، خطب)
+3. اذهب إلى "المزامنة عن بعد" ← "تصدير manifest.json"
+4. انسخ الـ manifest.json إلى هذا المستودع
+5. ارفع الملفات الصوتية إلى `audio/`
+6. ادفع (push) للتحديث
+7. المستخدمين يسحبون التحديث تلقائياً
