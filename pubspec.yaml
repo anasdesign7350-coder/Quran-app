@@ -1,0 +1,46 @@
+name: abdullah_alzakheim
+description: "تطبيق عبد الله الزخيم - مشغل صوتيات"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^3.3.1
+  go_router: ^17.2.3
+  just_audio: ^0.10.5
+  just_audio_background: ^0.0.1-beta.17
+  audio_service: ^0.18.18
+  just_waveform: ^0.0.7
+  drift: ^2.33.0
+  sqlite3_flutter_libs: ^0.5.28
+  path_provider: ^2.1.5
+  path: ^1.9.1
+  flutter_local_notifications: ^21.0.0
+  file_picker: ^8.1.7
+  permission_handler: ^12.0.1
+  shared_preferences: ^2.5.3
+  logging: ^1.3.0
+  intl: ^0.20.2
+  http: ^1.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  drift_dev: ^2.33.0
+  build_runner: ^2.4.15
+  json_serializable: ^6.9.5
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/audio/quran/
+    - assets/audio/nasheeds/
+    - assets/audio/lectures/
+    - assets/audio/duas/
+    - assets/images/categories/
